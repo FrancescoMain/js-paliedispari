@@ -4,6 +4,7 @@ let parolaUser = prompt("Inserisci una parola");
 
 let parolaInvertita = reverseStringa(parolaUser);
 
+// Dare output relativo.
 if(parolaUser == parolaInvertita){
     console.log('la parola è palindroma');
   } else {
@@ -12,4 +13,3 @@ if(parolaUser == parolaInvertita){
   
 
 
-// Dare output relativo.
