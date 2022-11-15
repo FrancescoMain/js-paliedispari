@@ -1,0 +1,71 @@
+/* regole generali  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    object-position: 0 30%;
+}
+
+
+
+/* utility */
+
+.hidden {
+    display: none;
+}
+
+.active {
+
+    display: block;
+
+}
+
+/* ms */
+.ms_cont {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+ul#ul {
+
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+
+}
+
+/* bs rules  */
+.form-control {
+
+ width: 30%;
+
+}
+
+.input-group {
+
+    width: 90%;
+}
+
+
+
